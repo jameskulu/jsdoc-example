@@ -1,0 +1,38 @@
+{
+    "plugins": [],
+    "recurseDepth": 10,
+    "source": {
+        "include": ["controllers"],
+        "includePattern": ".js$",
+        "excludePattern": "(node_modules/|out)"
+    },
+    "sourceType": "module",
+    "tags": {
+        "allowUnknownTags": true,
+        "dictionaries": ["jsdoc", "closure"]
+    },
+    "templates": {
+        "cleverLinks": false,
+        "monospaceLinks": false,
+        "systemName"            : "Audio Bee",
+        "footer"                : "",
+        "copyright"             :  "",
+        "includeDate"           : true,
+        "navType"               : "inline",
+        "theme"                 : "readable",
+        "linenums"              : true,
+        "collapseSymbols"       : true,
+        "inverseNav"            : false,
+        "outputSourceFiles"     : true,
+        "outputSourcePath"      : true,
+        "dateFormat"            : "",
+        "syntaxTheme"           : "",
+        "sort"					: true,
+        "search"                : true 
+    },
+    "opts": {
+        "template": "./docstrap-template",
+        "tutorials":"./tutorials",
+        "readme": "./readme.md"
+    }
+}
